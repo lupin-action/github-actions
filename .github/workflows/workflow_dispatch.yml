@@ -27,7 +27,7 @@ jobs:
         run: |
           echo hellow world
           echo github action
-      - nae: echo inputs
+      - name: echo inputs
         run: |
           echo ${{ inputs.name }}
           echo ${{ inputs.environment }}
