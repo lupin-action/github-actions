@@ -1,0 +1,17 @@
+name: multiple-event-workflow
+on:
+  push:
+  issuse:
+    types: [opened]
+  workflow_dispatch:
+
+jobs:
+  multiple-event-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: echo hellow world
+      - name: step2
+        run: |
+          echo hellow world
+          echo github action
