@@ -1,7 +1,7 @@
 name: multiple-event-workflow
 on:
   push:
-  issuse:
+  issues:
     types: [opened]
   workflow_dispatch:
 
