@@ -6,6 +6,6 @@ on:
 jobs:
   branch-filter:
     runs-on: ubutu-latest
-    stpes:
+    steps:
       name: echo
       run: echo hello~
