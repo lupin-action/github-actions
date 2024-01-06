@@ -1,0 +1,11 @@
+name: branch-filter
+on:
+  push:
+    branches: ['dev']
+
+jobs:
+  branch-filter:
+    runs-on: ubutu-latest
+    stpes:
+      name: echo
+      run: echo hello~
