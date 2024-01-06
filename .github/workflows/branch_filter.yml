@@ -1,11 +1,11 @@
 name: branch-filter
 on:
   push:
-    branches: ['dev-test']
+    branches: ['dev']
 
 jobs:
   branch-filter:
     runs-on: ubutu-latest
     steps:
-      name: echo
-      run: echo hello~
+      - name: echo
+        run: echo hello~
